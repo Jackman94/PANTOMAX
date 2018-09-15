@@ -1,0 +1,267 @@
+
+body{
+  margin: 0 250px;
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.background{
+  background-image: url("пара огонь.png");
+  background-repeat: repeat-y;
+  height: 731px;
+
+}
+.color2{
+color:white;
+}
+.color3{
+color: white;
+}
+.img1{
+  width: 40px;
+  height: 40px;
+}
+.img2{
+  width: auto;
+  height: 40px;
+}
+
+.stoyak{
+  color:white;
+}
+.board{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  width: 50px;
+  height: 60px;
+  color: black;
+  font-size: 230%;
+}
+.hr{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: black;
+  opacity: 0.6;
+  height: 1px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.board2{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #222222;
+  width: 90px;
+  height: 60px;
+  color:white;
+  font-size: 60%;
+
+}
+ul{
+  list-style-image: url(галочка.png);
+  color: white;
+}
+ul > li{
+  color: white;
+  font-size: 20px;
+  margin: 0 0 0 30px
+}
+.form1{
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  border-radius: 12px;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+.headerform{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+ol{
+list-style-image: url(замок.png);
+
+}
+ol>li{
+  font-size: 80%;
+}
+.tabletki{
+  width: 100%;
+  height: 100%;
+}
+.fifty{
+font-family: "Arial Narrow";
+  font-size: 600%;
+  color:silver;
+text-align: center;
+  margin-bottom: 0;
+  margin-top: 85%;
+}
+.fifty2{
+  color:white;
+  font-size:70%;
+  margin-top: 0;
+  text-align: center;
+}
+.background2{
+  background-image: url("пламя.png");
+  background-repeat: repeat-y;
+
+}
+.problem{
+  margin-top: 5%;
+  color:white;
+}
+h2>span{
+  color: red;
+}
+.question{
+  height: 200px ;
+  width: 600px ;
+  background-color: white;
+  border-radius: 10px;
+}
+.first{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color:#d5d5d5;
+  display: inline-block;
+  font-weight: bold;
+
+
+}
+.one{
+  margin-top: 40px;
+}
+.erekt{
+  display: inline-block;
+  font-weight: bold;
+}
+.btn_red{
+  background-color:rgba(255,10,10,0.8);;
+  color:white;
+  width: 35%;
+  height: 20%;
+  margin:40px 10px ;
+}
+.background3{
+
+}
+.ass{
+  background-color: white;
+  background-image: url("попка.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  border-radius: 10px;
+
+
+  width: 450px;
+  height: 398px;
+  margin-top: 50px;
+
+}
+.panto{
+  font-family: "Californian FB";
+  font-size: 170%;
+  font-weight: bold;
+  margin-top: 15px;
+}
+h1>span{
+  color:red;
+}
+.nuts{
+  font-weight: bold;
+}
+.advantage{
+  color:white;
+  font-weight: bold;
+  font-size: 200%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.background4{
+  background-image: url("таблетки с орешками.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+
+
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.content{
+  width: 150px;
+  height:180px ;
+  background-color: white;
+  border-radius: 10px;
+  margin:0 10px 20px 10px;
+  font-weight: bold;
+  font-size: 65%;
+}
+.dr{
+  width: 100%;
+  height:443px;
+  background-color: white;
+  background-image: url("доктор.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  border-radius: 12px;
+}
+.ostP{
+  font-weight: bold;
+  font-size: 80%;
+}
+.how{
+
+  color: yellow;
+  font-weight:bold;
+  font-size: 350%;
+  text-align:center;
+}
+.btn1{
+  width: 100%;
+}
+.btn2{
+  width: 80%;
+}
+
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .how {
+      font-size: 230%;
+    }
+    .board{
+      width: 30px;
+      height: 40px;
+      font-size: 168%;
+    }
+    .board2{
+    font-size:10%;
+      width: 10px;
+      height: 40px;
+    }
+    ul>li{
+      font-size:10px;
+      margin-top: 5px;
+    }
+    .btn1{width:1px;}
+    .btn2{width:50%;}
+    .fifty{
+      font-size:400%;
+    }
+    .panto{font-size: 100%;}
+    .nuts{font-size: 100%;}
+    .ptext{font-size: 80%}
+    .btn_red{font-size: 80%}
+    .ptext2{font-size: 60%}
+    .problem{margin-top: 15%}
+
+  }
+
+
+
